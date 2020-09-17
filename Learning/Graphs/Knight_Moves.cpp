@@ -75,8 +75,8 @@ int main() {
 
     fastIO
 #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+ (void)freopen("input.txt", "r", stdin);
+ (void)freopen("output.txt", "w", stdout);
 #endif
     int T ; cin >> T;
     N = M = 8;
