@@ -19,24 +19,6 @@ typedef vector<int> vi;
 #define all(x) x.begin(), x.end()
 #define ins insert
 
-ll mypow(ll a , ll n){
-    ll ans = 1 ;
-    while(n>0){
-        if(n%2==0){
-            a = (ll)(a*a) ;
-            n = n/2;           
-         }
-
-        else{
-            ans = (ll)(ans * a) ;
-            n--;
-         }
-    }
-    
-    return ans;
-
-}
-
 int main() {
 
     fastIO
@@ -46,9 +28,8 @@ int main() {
 #endif
     int T; cin >> T;
     while (T--) {
-        ll a , b ;
-        cin >> a>> b ;
-        cout << mypow(a ,b ) << nl;
+
+
     }
     return 0;
 }
