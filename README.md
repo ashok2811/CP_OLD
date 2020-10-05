@@ -1,5 +1,17 @@
-# CP Baremins
+# CP Log
+### Oct 5, 2020
+#### Target: Sorting, Searching, Maths
+#### Platform: Leetcode
 
-### KMP String Matching Algorithm
+- Complement_of_Base_10_Integer
+- Factorial_Trailing_Zeros
+- Search_A_2D_Matrix_II
+- Search_In_Rotated_Array
+- Search_for_A_Range
+- Find_Peak_Element
+- Kth_Largest_Element
+- Remove_Covered_Intervals
+- Top_K_Frequent_Elements
+- Sqrt(x) 
 
-Let the string is S = "dskjfhsdkjfsdkjfgskdjfg" and we want to find T = "kjfsdkj", so instead of traversing from L --> R one by one and comparing each character one by one in that window, 
+---
