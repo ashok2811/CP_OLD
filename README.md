@@ -2,6 +2,7 @@
 ### Oct 5, 2020
 #### Platform: Leetcode
 #### Target: Sorting, Searching, Maths
+#### Difficulty: Medium Collection, Top Interview Questions
 
 - Complement_of_Base_10_Integer
 - Factorial_Trailing_Zeros
