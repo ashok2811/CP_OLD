@@ -17,3 +17,15 @@
 - Excel_Sheet_Column_Number 
 
 ---
+
+### Oct 6, 2020
+#### Platform: Leetcode
+#### Target: DP, BST , Maths
+#### Difficulty: Easy , Medium
+
+- Divisor_Game  
+- Insert_into_a_BST
+- Construct_Binary_Tree_from_Preorder_and_Inorder
+- Divide_Two_Integers
+
+---
