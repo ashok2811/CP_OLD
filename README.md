@@ -26,6 +26,16 @@
 - Divisor_Game  
 - Insert_into_a_BST
 - Construct_Binary_Tree_from_Preorder_and_Inorder
-- Divide_Two_Integers
+- Divide_Two_Integers (Without / * %)
+
+---
+
+### Oct 7, 2020
+#### Platform: Leetcode
+#### Target:Maths
+#### Difficulty: Medium
+
+- Divisor_Game  
+- Fraction_to_Recurring_Decimal
 
 ---
