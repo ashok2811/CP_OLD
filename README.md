@@ -32,10 +32,11 @@
 
 ### Oct 7, 2020
 #### Platform: Leetcode
-#### Target:Maths
+#### Target:Maths, Linked List
 #### Difficulty: Medium
 
 - Divisor_Game  
 - Fraction_to_Recurring_Decimal
+- Rotate_List
 
 ---
