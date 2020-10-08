@@ -41,3 +41,12 @@
 - Task_Schedular
 
 ---
+
+### Oct 8, 2020
+#### Platform: Leetcode
+#### Target: Search
+#### Difficulty: Medium
+
+- Binary_Search
+
+---
