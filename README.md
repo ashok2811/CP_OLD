@@ -44,10 +44,19 @@
 
 ### Oct 8, 2020
 #### Platform: Leetcode
-#### Target: Search
-#### Difficulty: Medium
+#### Target: Search, DP
+#### Difficulty: Medium, Hard
 
 - Binary_Search
 - Best_Time_to_Buy_and_Sell_Stock_with_Cooldown
 - Edit_Distances
+---
+
+### Oct 9, 2020
+#### Platform: Leetcode
+#### Target: DP
+#### Difficulty: Medium
+
+- Palindromic_Substrings
+
 ---
