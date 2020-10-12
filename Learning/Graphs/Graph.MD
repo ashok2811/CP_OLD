@@ -1,5 +1,5 @@
 ### Graph List : Frequecy Wise
-Alien Dictionary 
+Alien Dictionary   
 Reconstruct Itinerary    
 Course Schedule II    
 Course Schedule    
