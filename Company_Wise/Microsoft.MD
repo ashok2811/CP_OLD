@@ -1,4 +1,4 @@
-# Google List (Decreasing Freq)
+# Microsoft List (Decreasing Freq)
 ###	Title	  Solution	Acceptance	Difficulty	Frequency(Dec)  
 1 Two Sum  	45.9%	Easy    
 
