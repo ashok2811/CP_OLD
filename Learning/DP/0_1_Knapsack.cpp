@@ -103,3 +103,58 @@ int main() {
 	
 	return 0;
 }
+
+
+// Iterative Version
+
+
+#include <bits/stdc++.h>
+using namespace std;
+int dp[1001][1001] ;
+
+int main() {
+	//code
+	int t ; cin >> t ;
+	while(t--){
+	       int N, W;
+	       cin >> N >> W ;
+	       int wt[N] , val[N] ;
+	       for(int i = 0 ; i< N ; i++){
+	           cin >>val[i];
+	       }
+	       
+	       for(int i = 0 ; i< N ; i++){
+	           cin >> wt[i];
+	       }
+	       // Intialisation Step 
+	       for(int i = 0 ; i<=N ;i++){
+	          dp[i][0] = 0 ;
+	       }
+	         for(int i = 0 ; i<=W ;i++){
+	          dp[0][i] = 0 ;
+	       }
+	       
+	    for(int i = 1 ; i <=N; i++){
+	        for(int j = 1 ; j<=W; j++){
+	            // Choice 1:  current weight <= max allowed weight
+	            
+	            if(wt[i-1]<=j){
+	                dp[i][j] = max(val[i-1] + dp[i-1][j - wt[i-1]], dp[i-1][j]); // max of taking this val or not
+	            }
+	            
+	            
+	            
+	            // Choice 2 : current weight is greater than max alloed weight , not considering the current
+	            else{
+	                dp[i][j] = dp[i-1][j];
+	            }
+	        }
+	    }
+	       
+
+	     cout << dp[N][W] << endl;
+	   
+	}
+	
+	return 0;
+}
